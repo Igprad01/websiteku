@@ -9,7 +9,7 @@
 }
 
 .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-black;
+    @apply w-[30px] h-[3px] my-2 block bg-black;
 }
 
 .hamburger-line-tengah {
