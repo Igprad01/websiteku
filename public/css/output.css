@@ -760,6 +760,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -784,8 +788,8 @@ video {
   margin-left: 5rem;
 }
 
-.ml-36 {
-  margin-left: 9rem;
+.ml-72 {
+  margin-left: 18rem;
 }
 
 .mr-1 {
@@ -822,62 +826,6 @@ video {
 
 .mt-72 {
   margin-top: 18rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-56 {
-  margin-left: 14rem;
-}
-
-.ml-60 {
-  margin-left: 15rem;
-}
-
-.ml-64 {
-  margin-left: 16rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.ml-72 {
-  margin-left: 18rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-44 {
-  margin-top: 11rem;
 }
 
 .box-border {
@@ -1537,20 +1485,20 @@ video {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2185,11 +2133,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2198,16 +2141,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .pb-32 {
@@ -2234,24 +2167,12 @@ video {
   padding-right: 1.75rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -2332,11 +2253,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {

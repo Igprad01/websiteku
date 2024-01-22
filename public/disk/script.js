@@ -1,4 +1,3 @@
-// hamburger
 const hamburger = document.querySelector('#hamburger')
 const menuNav= document.querySelector('#menu-nav');
 
@@ -19,4 +18,3 @@ window.onscroll = function() {
         header.classList.remove('navbar-fixed');
     }
 }
-
