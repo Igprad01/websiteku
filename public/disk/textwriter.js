@@ -24,7 +24,7 @@ function type() {
         isDeleting = true;
       }
     }
-    setTimeout(type, 200);
+    setTimeout(type, 100);
   }
   
   type();
