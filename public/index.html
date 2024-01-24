@@ -7,7 +7,7 @@
 </head>
 <body class="font-montserrat"> 
 <!-- header start -->
-<header class="w-full px-2 py-1 fixed top-0 z-40 bg-transparent backdrop-blur-md shadow-lg lg:py-4">
+<header class="w-full px-4 py-2 fixed top-0 z-40 bg-transparent backdrop-blur-md shadow-lg lg:py-4">
   <div class="container mx-auto lg:max-w-4xl">
     <div class="container flex justify-between items-center mx-auto lg:max-w-4xl">
       <div class="px-5">
@@ -19,8 +19,8 @@
           <span class="hamburger-line-tengah"></span>
           <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
         </button>
-        <nav id="menu-nav" class="hidden absolute py-2 bg-transparent shadow-sm-lg rounded-lg max-w-[250px] w-full right-1 top-full lg:block lg:static ">
-          <ul class="block lg:flex">
+        <nav id="menu-nav" class="hidden absolute py-1 text-xl text-center shadow-sm-lg rounded-lg bg-slate-200 max-w-[250px] w-full right-1 top-full lg:block lg:static lg:bg-transparent ">
+          <ul class=" block lg:flex">
             <li class="group">
               <a href="" class="text-dark py-2 lg:py-5 mx-2 lg:mx-5 group-hover:text-gray-400 transition duration-500">Home</a>
             </li>
@@ -41,25 +41,21 @@
 </header>
 
 <!-- header end -->
-
-Main content
 <main class="py-24">
   <!-- Section Hero -->
-  <section class="container px-10 mx-auto p-10 flex flex-col justify-center items-center gap-8 lg:flex-row-reverse" id="hero">
-    <img class="rounded-lg ml-20" src="/assets/img/profile.jpg" alt="Profile Picture" width="450px">
-  <div class="">
-    <div class="">
-      <h1 class="">Hello I'm Putra Pradwi</h1>
-      <div class="">
-      <p class="">I am a person</p>
-       <p class="" id="typewriter"></p>
+  <section class="container px-10 mx-auto p-10 flex flex-col justify-center items-center gap-8 lg:flex-row-reverse lg:mt-14" id="hero">
+    <img class="rounded-lg border-2 mb-10 lg:ml-20 lg:mr-24 lg:w-60" src="/assets/img/profile.jpg" alt="Profile Picture" width="300px">
+    <div class="text-center lg:ml-40 lg:text-left">
+      <h1 class="text-5xl font-bold mb-5 lg:text-5xl lg:mr-56">Hello I'm Putra Pradwi</h1>
+      <div class="flex flex-row mb-5 text-center font-bold lg:text-3xl">
+      <p class="mr-1 text-xl">I am a person</p>
+       <p class="text-xl" id="typewriter"></p>
       </div>
-      <p class="">likes technology, coding, likes traveling using bus transportation. My favorite drink is white milk</p>
-      <button class="border-2 bg-slate-400 mt-5 px-4 py-4 pr-14 pl-14 rounded-full hover:bg-transparent text-2xl transition duration-500"><a href="#about">About Me</a></button>
+      <p class="text-lg lg:text-2xl lg:mr-10">likes technology, coding, likes traveling using bus transportation. My favorite drink is white milk</p>
+      <button class="border-2 bg-slate-200 mt-6 px-10 py-5 rounded-full hover:bg-transparent text-xl transition duration-500 lg:pr-14 lg:pl-14 lg:px-4 lg:py-4 lg:text-2xl"><a href="#">About Me</a></button>
     </div> 
-  </div>
 </section>
-<div class="grid grid-cols-2 gap-1 lg:flex lg:flex-row lg:justify-center lg:gap-28 lg:my-10">
+<div class="grid grid-cols-2 gap-1 mx-auto place-items-center lg:flex lg:flex-row lg:justify-center lg:gap-28 lg:my-8">
   <a href="https://github.com/Igprad01"><img src="/assets/svg/github-icon.svg" alt=""></a>
   <a href="https://www.linkedin.com/in/i-gusti-bagus-putra-pradwi"><img src="/assets/svg/linkedln-icon.svg" alt=""></a>
   <a href="https://www.instagram.com/igprad"><img src="/assets/svg/instagram-icon.svg" alt=""></a>
@@ -69,7 +65,7 @@ Main content
 <!--flex flex-row justify-center items-center gap-28 my-10  -->
 <!-- Section Hero End -->
 <!-- About me Start-->
-<section class ="w-full grid gap-10" id="about">
+<section class ="w-full grid gap-5" id="about">
  <div class="grid justify-center items-center mx-auto max-w-5xl gap-10 py-52">
   <h2 class="text-2xl text-center font-bold uppercase">About Me</h2>
   <div class="lg:flex lg:flex-row">
@@ -85,7 +81,7 @@ Main content
 <section class="container mx-auto flex justify-center py-8 sm:py-16 md:py-24 lg:py-32" id="skill">
   <div class="pb-8 sm:pb-16 md:pb-24 lg:pb-32">
     <h2 class="text-2xl text-center mb-8 md:mb-14 uppercase font-bold">Skills</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5">
       <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/html-icon.svg" alt="#" width="90px">
         <h3 class="text-center font-bold">HTML</h3>
@@ -201,3 +197,5 @@ Main content
 <script src="./disk/textwriter.js"></script>
 </body>
 </html>
+
+<!-- tinggal menambahkan animasi besok & hosting -->
