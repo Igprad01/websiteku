@@ -45,7 +45,7 @@
 Main content
 <main class="py-24">
   <!-- Section Hero -->
-  <section class="container mx-auto py-5 flex justify-center lg:flex-row-reverse " id="hero">
+  <section class="container mx-auto py-5 flex justify-center lg:flex-row-reverse sm:grid-cols-3 " id="hero">
   <div class="flex items-center justify-space-between w-full md:w-2/3 my-4 mx-10">
     <div class="mr-40">
       <h1 class="text-5xl font-bold mb-4">Hello I'm Putra Pradwi</h1>
@@ -69,7 +69,7 @@ Main content
 </div>
 <!-- Section Hero End -->
 <!-- About me Start-->
-<section class = "container mx-auto mt-72 py-10 flex justify-center" id="about">
+<section class = "container mx-auto mt-72 py-10 flex justify-center md:grid-cols-3 lg:grid-cols-4" id="about">
  <div class="my-20">
   <h2 class="text-2xl text-center font-bold uppercase">About Me</h2>
   <div class="flex items-start justify-between w-full mx-28 my-10 ">
@@ -82,115 +82,132 @@ Main content
 </section>
 <!-- About Me End -->
 <!-- Skill start -->
-<section class="container mx-auto flex justify-center py-32" id="skill">
-  <div class="pb-32">
-    <h2 class="text-2xl text-center mb-14 uppercase font-bold">Skills</h2>
-    <div class="grid grid-cols-4 gap-8">
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-8 p-10 rounded-xl shadow-xl">
+<section class="container mx-auto flex justify-center py-8 sm:py-16 md:py-24 lg:py-32" id="skill">
+  <div class="pb-8 sm:pb-16 md:pb-24 lg:pb-32">
+    <h2 class="text-2xl text-center mb-8 md:mb-14 uppercase font-bold">Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
+      <!-- Skill 1 -->
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/html-icon.svg" alt="#" width="90px">
         <h3 class="text-center font-bold">HTML</h3>
       </div>
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-8 p-10 rounded-xl shadow-xl">
+
+      <!-- Skill 2 -->
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/css-icon.svg" alt="#" width="90px">
         <h3 class="text-center font-bold">CSS</h3>
       </div>
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-8 p-10 rounded-xl shadow-xl">
+
+      <!-- Skill 3 -->
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/php.svg" alt="#" width="120px">
-        <h3 class="text-center font-bold mt-10">PHP</h3>
+        <h3 class="text-center font-bold mt-4 sm:mt-10">PHP</h3>
       </div>
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-8 p-10 rounded-xl shadow-xl">
+
+      <!-- Skill 4 -->
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/laravel.svg" alt="#" width="120px">
-        <h3 class="text-center font-bold mt-5">LARAVEL</h3>
+        <h3 class="text-center font-bold mt-2 sm:mt-5">LARAVEL</h3>
       </div>
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-8 p-10 rounded-xl shadow-xl">
+
+      <!-- Skill 5 -->
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
         <img src="/assets/svg/bootstrap-5-1.svg" alt="#" width="120px">
-        <h3 class="text-center font-bold mt-5">BOOTSTRAP</h3>
+        <h3 class="text-center font-bold mt-2 sm:mt-5">BOOTSTRAP</h3>
       </div>
     </div>
   </div>
 </section>
+
 <!-- Skill End -->
 <!-- Project Start -->
-<section class="container mx-auto flex justify-center mb-24 py-32" id="project">
-<div class="">
-  <h2 class="text-2xl text-center mb-14 font-bold uppercase">Project</h2>
-  <div class="grid grid-cols-4 gap-8">
-    <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
+<section class="container mx-auto flex justify-center mb-24 py-8 sm:py-16 md:py-24 lg:py-32" id="project">
+  <div class="w-full">
+    <h2 class="text-2xl text-center mb-8 md:mb-14 font-bold uppercase">Project</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 md:pt-6 md:pr-7 md:pl-6 md:pb-6 rounded-lg border-2 shadow-xl mx-auto sm:mx-4 lg:mx-auto">
         <img src="/assets/img/Landing-page-travel.png" alt="#" class="rounded-md">
-        <h3 class="text-xl font-bold">Landing Page Travel</h3>
-      <button class= "border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
-        <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2"><a href="https://github.com/Igprad01/landing-Page-Travel-Concept">Github</a></button>
-    </div>
-    <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
-      <img src="/assets/img/portofolio-old.png" alt="#" class="rounded-md">
-      <h3 class="text-xl font-bold">Old Portofolio Website</h3>
-    <button class= "border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
-      <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2"><a href="https://github.com/Igprad01/portofolio">Github</a></button>
-    </div>
-    <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
-      <img src="/assets/img/catatanku.png" alt="#" class="rounded-md">
-      <h3 class="text-xl font-bold">Catatanku</h3>
-    <button class= "border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
-      <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2"><a href="https://github.com/Igprad01/Catatanku">Github</a></button>
-    </div>
-    <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
-      <img src="/assets/img/to Do list.png" alt="#" class="rounded-md">
-      <h3 class="text-xl font-bold">To Do List Website</h3>
-    <button class= "border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
-      <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2"><a href="https://github.com/Igprad01/To-Do-List-Website">Github</a></button>
+        <h3 class="text-xl font-bold mt-4">Landing Page Travel</h3>
+        <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
+          <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
+          <a href="https://github.com/Igprad01/landing-Page-Travel-Concept">Github</a>
+        </button>
+      </div>      
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
+        <img src="/assets/img/portofolio-old.png" alt="#" class="rounded-md">
+        <h3 class="text-xl font-bold">Old Portofolio Website</h3>
+        <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
+          <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
+          <a href="https://github.com/Igprad01/portofolio">Github</a>
+        </button>
+      </div>
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
+        <img src="/assets/img/catatanku.png" alt="#" class="rounded-md">
+        <h3 class="text-xl font-bold">Catatanku</h3>
+        <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
+          <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
+          <a href="https://github.com/Igprad01/Catatanku">Github</a>
+        </button>
+      </div>
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 pt-6 pr-7 pl-6 pb-6 rounded-lg border-2 shadow-xl">
+        <img src="/assets/img/to Do list.png" alt="#" class="rounded-md">
+        <h3 class="text-xl font-bold">To Do List Website</h3>
+        <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
+          <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
+          <a href="https://github.com/Igprad01/To-Do-List-Website">Github</a>
+        </button>
+      </div>
     </div>
   </div>
-</div>
 </section>
+
 </main>
 <!-- Project End -->
 <!-- End main content -->
 <!-- footer start -->
-<footer class="w-full pt-14 bg-slate-200 items-center">
-    <div class="grid grid-cols-4 gap-16 ml-72 mx-auto">
-      <div class="flex flex-col">
-        <h1 class="text-2xl font-bold">I Gusti Bagus Putra Pradwi</h1>
-        <p>likes technology, coding, likes traveling using bus transportation. My favorite drink is white milk</p>
-      </div>
-      <div class="flex flex-col">
-        <h1 class="text-2xl font-bold mb-2">Social Media</h1>
-       <div class="flex flex-row gap-2">
+<footer class="w-full pt-8 sm:pt-12 md:pt-16 lg:pt-20 bg-slate-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-8 lg:gap-16 mx-4 sm:mx-auto md:mx-auto lg:ml-72">
+    <div class="flex flex-col">
+      <h1 class="text-2xl font-bold mb-2">I Gusti Bagus Putra Pradwi</h1>
+      <p class="text-sm sm:text-base">Likes technology, coding, enjoys traveling using bus transportation. Favorite drink is white milk.</p>
+    </div>
+    <div class="flex flex-col">
+      <h1 class="text-2xl font-bold mb-2">Social Media</h1>
+      <div class="flex flex-row gap-2">
         <img src="/assets/svg/github-icon.svg" alt="" width="30px">
-        <a href="https://github.com/Igprad01" class="text-lg">Github</a>
-       </div>
-       <div class="flex flex-row gap-2">
+        <a href="https://github.com/Igprad01" class="text-sm sm:text-base">Github</a>
+      </div>
+      <div class="flex flex-row gap-2">
         <img src="/assets/svg/X-logo.svg" alt="" width="30px">
-        <a href="https://twitter.com/IPradwi" class="text-lg">Twitter</a>
-       </div>
-       <div class="flex flex-row gap-2">
+        <a href="https://twitter.com/IPradwi" class="text-sm sm:text-base">Twitter</a>
+      </div>
+      <div class="flex flex-row gap-2">
         <img src="/assets/svg/linkedln-icon.svg" alt="" width="30px">
-        <a href="https://www.linkedin.com/in/i-gusti-bagus-putra-pradwi" class="text-lg">Linkedln</a>
-       </div>
-       <div class="flex flex-row gap-2">
+        <a href="https://www.linkedin.com/in/i-gusti-bagus-putra-pradwi" class="text-sm sm:text-base">LinkedIn</a>
+      </div>
+      <div class="flex flex-row gap-2">
         <img src="/assets/svg/instagram-icon.svg" alt="" width="30px">
-        <a href="https://www.instagram.com/igprad" class="text-lg">Instagram</a>
-       </div>
-      </div>
-      <div class="flex flex-col">
-        <h1 class="text-2xl font-bold mb-2">Address</h1>
-        <p class="text-xl mb-1">Surabaya Jawa Timur, Indonesia</p>
-        <p class="text-xl">igustiputra99@gmail.com</p>
+        <a href="https://www.instagram.com/igprad" class="text-sm sm:text-base">Instagram</a>
       </div>
     </div>
-    <div class="flex flex-col justify-center items-center p-5 gap-3 mt-5">
-     <div class="flex items-center gap-5 mx-auto">
-      <p class="text-lg">made with</p>
-      <img src="/assets/svg/html-icon.svg" alt="" width="40px">
-      <img src="/assets/svg/tailwindcss-icon.svg" alt="" width="40px">
-      <img src="/assets/svg/css-icon.svg" alt="" width="40px">
-     </div>
-     <p class="text-center">Copyright igprad</p>
+    <div class="flex flex-col">
+      <h1 class="text-2xl font-bold mb-2">Address</h1>
+      <p class="text-sm sm:text-base mb-1">Surabaya, Jawa Timur, Indonesia</p>
+      <p class="text-sm sm:text-base">igustiputra99@gmail.com</p>
     </div>
+  </div>
+  <div class="flex flex-col justify-center items-center p-5 gap-3 mt-5">
+    <div class="flex items-center gap-2 sm:gap-5 mx-auto">
+      <p class="text-sm sm:text-lg">Made with</p>
+      <img src="/assets/svg/html-icon.svg" alt="" width="30px">
+      <img src="/assets/svg/tailwindcss-icon.svg" alt="" width="30px">
+      <img src="/assets/svg/css-icon.svg" alt="" width="30px">
+    </div>
+    <p class="text-sm sm:text-base text-center">Copyright @2024 I Gusti Bagus Putra Pradwi. All Right Reversed</p>
+  </div>
 </footer>
 <!-- script -->
 <script src="./disk/hamburger.js"></script>
 <script src="./disk/textwriter.js"></script>
 </body>
 </html>
-
-<!-- tinggal responsive web & font besok di fix an serta beberapa konten di fix kan -->
