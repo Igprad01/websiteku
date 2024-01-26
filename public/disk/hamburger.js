@@ -9,10 +9,10 @@ hamburger.addEventListener('click', function () {
 // navbar-fixed 
 
 window.onscroll = function () {
-  const header = document.querySelector('header'); // Change to 'header' here
+  const header = document.querySelector('header');
   const fixedNav = header.offsetTop;
 
-  if (window.scrollX > fixedNav) { // Change to scrollY here
+  if (window.scrollX > fixedNav) {
     header.classList.add('navbar-fixed');
   } else {
     header.classList.remove('navbar-fixed');

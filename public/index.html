@@ -7,7 +7,7 @@
 </head>
 <body class="font-montserrat"> 
 <!-- header start -->
-<header class="w-full px-4 py-2 fixed top-0 z-40 bg-transparent backdrop-blur-md shadow-lg lg:py-4">
+<header class="w-full px-4 py-2 fixed top-0 bg-transparent backdrop-blur-md shadow-lg lg:py-4 z-20">
   <div class="container mx-auto lg:max-w-4xl ">
     <div class="container flex justify-between items-center mx-auto lg:max-w-4xl">
       <div class="px-5">
@@ -19,7 +19,7 @@
           <span class="hamburger-line-tengah"></span>
           <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
         </button>
-        <nav id="menu-nav" class="hidden absolute py-5 pb-96 text-lg text-start shadow-sm-lg bg-white max-w-[250px] w-full right-1 top-full lg:pb-5 lg:text-center lg:block lg:static lg:bg-transparent ">
+        <nav id="menu-nav"class="hidden fixed py-5 pb-96 text-lg text-start shadow-sm-lg max-w-[250px] w-full right-1 bg-white top-full z-10 bg-transparent backdrop-blur-md lg:pb-5 lg:text-center lg:block lg:static lg:bg-transparent">
           <ul class="mt-5 lg:mt-0 block lg:flex">
             <li class=" ml-5 mb-5 lg:mb-0 lg:ml-0 group hover:underline">
               <a href="" class="text-dark py-2 lg:py-5 mx-2 lg:mx-5 group-hover:text-gray-400 transition duration-500">Home</a>
@@ -52,21 +52,20 @@
        <p class="text-xl" id="typewriter"></p>
       </div>
       <p class="text-lg lg:text-2xl lg:mr-10">likes technology, coding, likes traveling using bus transportation. My favorite drink is white milk</p>
-      <button class="border-2 bg-slate-200 mt-6 px-10 py-5 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:bg-slate-200 duration-300 text-xl lg:pr-14 lg:pl-14 lg:px-4 lg:py-4 lg:text-2xl"><a href="#">About Me</a></button>
+      <div class="flex row justify-center mt-4 lg:flex lg:flex-row lg:justify-start">
+        <a href="https://github.com/Igprad01"><img src="/assets/svg/github-icon.svg" alt="" width="40px" class="mr-3 border-2 border-black rounded-md"></a>
+        <a href="https://www.linkedin.com/in/i-gusti-bagus-putra-pradwi"><img src="/assets/svg/linkedln-icon.svg" alt="" width="40px" class="mr-3"></a>
+        <a href="https://www.instagram.com/igprad"><img src="/assets/svg/instagram-icon.svg" alt="" width="40px" class="mr-3"></a>
+        <a href="https://twitter.com/IPradwi"><img src="/assets/svg/X-logo.svg" alt="" width="40px" class="mr-3"></a>
+      </div>
+      <button class="border-2 bg-slate-200 mt-6 px-4 py-2 rounded-full shadow-lg shadow-slate-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 font-semibold hover:bg-yellow-400 duration-500 text-lg lg:pr-14 lg:pl-14 lg:px-4 lg:py-4 lg:text-lg"><a href="">Download CV</a></button>
     </div> 
 </section>
-<div class="grid grid-cols-2 gap-1 mx-auto place-items-center lg:flex lg:flex-row lg:justify-center lg:gap-28 lg:my-8">
-  <a href="https://github.com/Igprad01"><img src="/assets/svg/github-icon.svg" alt=""></a>
-  <a href="https://www.linkedin.com/in/i-gusti-bagus-putra-pradwi"><img src="/assets/svg/linkedln-icon.svg" alt=""></a>
-  <a href="https://www.instagram.com/igprad"><img src="/assets/svg/instagram-icon.svg" alt=""></a>
-  <a href="https://twitter.com/IPradwi"><img src="/assets/svg/X-logo.svg" alt=""></a>
-</div>
 
-<!--flex flex-row justify-center items-center gap-28 my-10  -->
 <!-- Section Hero End -->
 <!-- About me Start-->
 <section class ="w-full grid gap-5" id="about">
- <div class="grid justify-center items-center mx-auto max-w-5xl gap-10 py-52">
+ <div class="grid justify-center items-center mx-auto max-w-5xl gap-10 py-60">
   <h2 class="text-2xl text-center font-bold uppercase">About Me</h2>
   <div class="lg:flex lg:flex-row">
     <img src="/assets/img/profile.jpg" alt="#" class="border-2 ml-10 mb-10" width="300px">
@@ -82,7 +81,7 @@
   <div class="pb-8 sm:pb-16 md:pb-24 lg:pb-32">
     <h2 class="text-2xl text-center mb-8 md:mb-14 uppercase font-bold">Skills</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5">
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl">
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-6 sm:p-10 rounded-xl shadow-xl lg:pb-16">
         <img src="/assets/svg/html-icon.svg" alt="#" width="90px">
         <h3 class="text-center font-bold">HTML</h3>
       </div>
@@ -112,9 +111,13 @@
   <div class="w-full">
     <h2 class="text-2xl text-center mb-8 md:mb-14 font-bold uppercase">Project</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 mx-3 sm:p-2 rounded-lg border-2 shadow-lg">
+      <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 mx-3 sm:p-2 rounded-lg border-2 shadow-lg lg:p-2">
         <img src="/assets/img/Landing-page-travel.png" alt="#" class="rounded-md" width="200px">
-        <h3 class="text-xl font-bold mt-4">Landing Page Travel</h3>
+        <h3 class="text-xl font-bold mt-4 lg:mt-1">Landing Page Travel</h3>
+        <div class="flex flex-row justify-center items-center">
+          <img src="/assets/svg/html-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/css-icon.svg" alt="#" width="25px">
+        </div>
         <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
           <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
           <a href="https://github.com/Igprad01/landing-Page-Travel-Concept">Github</a>
@@ -123,6 +126,10 @@
       <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 mx-3 sm:p-2 rounded-lg border-2 shadow-lg">
         <img src="/assets/img/portofolio-old.png" alt="#" class="rounded-md" width="200px">
         <h3 class="text-xl font-bold">Old Portofolio Website</h3>
+        <div class="flex flex-row justify-center items-center">
+          <img src="/assets/svg/html-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/css-icon.svg" alt="#" width="25px">
+        </div>
         <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
           <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
           <a href="https://github.com/Igprad01/portofolio">Github</a>
@@ -131,6 +138,12 @@
       <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 mx-3 sm:p-2 rounded-lg border-2 shadow-lg">
         <img src="/assets/img/catatanku.png" alt="#" class="rounded-md" width="200px">
         <h3 class="text-xl font-bold">Catatanku</h3>
+        <div class="flex flex-row justify-center items-center">
+          <img src="/assets/svg/html-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/css-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/laravel.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/bootstrap-5-1.svg" alt="#" width="25px">
+        </div>
         <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
           <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
           <a href="https://github.com/Igprad01/Catatanku">Github</a>
@@ -139,6 +152,12 @@
       <div class="bg-slate-200 flex flex-col justify-center items-center gap-4 p-4 mx-3 sm:p-2 rounded-lg border-2 shadow-lg">
         <img src="/assets/img/to Do list.png" alt="#" class="rounded-md" width="200px">
         <h3 class="text-xl font-bold">To Do List Website</h3>
+        <div class="flex flex-row justify-center items-center">
+          <img src="/assets/svg/html-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/css-icon.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/laravel.svg" alt="#" width="25px" class="mr-5">
+          <img src="/assets/svg/bootstrap-5-1.svg" alt="#" width="25px">
+        </div>
         <button class="border-2 bg-slate-400 flex items-center rounded-lg py-2 px-6 hover:bg-transparent transition duration-500 border-gray-300">
           <img src="/assets/svg/github-icon.svg" alt="#" width="40px" class="mr-1 ml-2">
           <a href="https://github.com/Igprad01/To-Do-List-Website">Github</a>
