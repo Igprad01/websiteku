@@ -6,7 +6,11 @@ module.exports = {
       'montserrat': ['Montserrat', 'sans-serif'],
       'body' : ['"montserrat"'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        
+      }
+    },
   },
   plugins: [],
 }
