@@ -2549,6 +2549,16 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-slate-200 {
+  --tw-shadow-color: #e2e8f0;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-slate-600 {
+  --tw-shadow-color: #475569;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
